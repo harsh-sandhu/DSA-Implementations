@@ -23,7 +23,7 @@ public class Stack {
 			return;
 		}
 		arr[top--]=0;
-		if(top==MAX_SIZE/4&&top>=4) {
+		if(top==MAX_SIZE/4&&MAX_SIZE>10) {
 			squeezArray();
 		}
 	}
